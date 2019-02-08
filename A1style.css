@@ -1,0 +1,253 @@
+body{
+  background-color: silver;
+}
+/*For the fanry and description*/
+div.top{
+  padding: 10px;
+  color: white;
+  height: 68px;
+  line-height: 50px;
+  background-color: white;
+
+}
+div.pos{
+  position: absolute;
+
+}
+
+/*For "camry fan page"*/
+div.description{
+  text-align: right;
+  color: black;
+  font-size: 25px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding-top: 25px;
+
+}
+
+/*For fanry*/
+a.logo{
+  text-decoration:none;
+  line-height: 1;
+  position: absolute;
+  top: 30px;
+  font-size: 50px;
+  font-family: Helvetica, Arial;
+  color: black;
+  display: block;
+
+}
+/*To changed the color when hover over the link of Fanry*/
+a:hover{
+  color: red;
+}
+
+/*For list*/
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: red;
+  color: white;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+/*To Get the heart go over the picture on homepage*/
+#over{
+  position: absolute;
+  left: 800px;
+  top: 150px;
+  z-index: 1;
+}
+
+
+/*Club members*/
+div.members{
+  color: red;
+  font-size: 30px;
+  font:Helvetica;
+  text-align: center;
+}
+
+/*Always at the buttom of the page*/
+.bottomPage{
+  position: relative;
+  width:auto;
+  height: 500px;
+}
+.bottom{
+  position: absolute;
+  bottom:1px;
+}
+
+/*Sign up button*/
+.rightSide{
+  text-align: right;
+  color: grey;
+}
+.leftSide{
+  text-align: left;
+}
+input.button{
+  font-size: 35px;
+  color:white;
+  background-color: black;
+}
+input:hover{
+  background-color: red;
+  color:white;
+}
+
+/*getting the text to appear above the image*/
+#back{
+  /*position: relative;
+  left: 50%;*/
+  top:10%;
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 160;
+}
+
+h1{
+  position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+   text-align: center;
+}
+h1 span {
+   color: white;
+   font: bold 35px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+
+}
+
+.pageName{
+  position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+   text-align: center;
+}
+
+/*Next two for some text for gallery*/
+.sAndp{
+  display:block;
+  width: 150px;
+  text-align: center;
+  transform: rotate(-20deg);
+  font-size: 30px;
+}
+
+.good{
+  position: relative;
+  left: 90%;
+  top: 10%;
+  width: 150px;
+  height: 10px;
+  display:block;
+  text-align: center;
+  transform: rotate(20deg);
+  font-size: 30px;
+}
+
+/*linking image with text*/
+.img-text{
+  text-align: justify;
+  width: 800;
+  height: 200;
+  padding-top: 10px;
+}
+.img-text img{
+  display: block;
+  margin: 0 ;
+}
+.right-text{
+  position: absolute;
+  top: 350px;
+  left: 250px;
+  margin-right: 15%;
+}
+.below-img{
+  position: absolute;
+  left: 55px;
+}
+
+.right-img{
+  display: block;
+  position: relative;
+  float: right;
+  top:-163px;
+  padding-right: 10px;
+}
+.below-img-right{
+  position: absolute;
+  right: 80px;
+
+}
+.gen1{
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  top: 500px;
+}
+.img-with-text{
+  text-align: justify;
+  width: 200;
+}
+.img-with-text img{
+  display: block;
+  margin: 0 auto;
+}
+
+/*Table*/
+td,th{
+  padding: 8px;
+
+}
+.table{
+  font-family: "Helvetica", sans-serif;
+   border-collapse: collapse;
+}
+tr:nth-child(even) {
+    background-color: white;
+}
+
+
+th{
+  background-color: red;
+}
+
+table.models{
+  margin-top:5%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.modelSize{
+  height: 100%;
+  width: 200px;
+  margin-top: -600px;
+  color:black;
+}
+.divRight{
+  float: right;
+}
